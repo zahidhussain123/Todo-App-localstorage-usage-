@@ -27,6 +27,7 @@ const Form = ({ inputText, setInputText, todos, setTodos, setStatus }) => {
           onChange={changeHandler}
           type="text"
           className="todo-input"
+          placeholder="Enter work here..."
         />
         <button onClick={submitHandler} className="todo-button" type="submit">
           <i className="fas fa-plus-square"></i>
